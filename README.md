@@ -17,6 +17,27 @@ It installs three things into the target repo:
 > Requires [Bun](https://bun.sh) on the developer's machine to run the generator. The hook
 > no-ops silently where bun or local logs are absent.
 
+## What it produces
+
+The generator renders a table of the repo's own agent-development footprint. Here's a real
+example — the live section from the [`ccusage`](https://github.com/danilogiacomi/ccusage)
+project this was extracted from:
+
+| Metric | Value |
+|---|---|
+| **Total tokens** | **310.0M** |
+| Token breakdown | 1.7M output · 1.6M input · 7.1M cache-write · 299.6M cache-read |
+| Agent time | ~5h 5m active (306h 24m wall-clock) |
+| Turns | 1,212 assistant turns · 578 tool calls |
+| Agents / models | Claude Code · Codex — claude-opus-4-8, claude-sonnet-4-6 |
+| As of | 2026-05-30 → 2026-06-12 |
+
+> 💡 Most of those tokens are *cache reads* — re-reading the growing conversation each
+> turn — which is why the total dwarfs the tokens actually written.
+
+(This repo's own live section is near the bottom; it starts empty and fills in once you run
+a coding agent inside this repo and commit — see [Built by agents](#-built-by-agents).)
+
 ## Install
 
 Add this repo as a plugin marketplace, then install the plugin:
