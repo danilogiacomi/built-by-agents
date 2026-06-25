@@ -1,7 +1,7 @@
 {
-  "name": "danilo-skills",
-  "description": "Danilo's Claude Code plugins.",
-  "owner": { "name": "Danilo Giacomi", "email": "giacomi@netseven.it" },
+  "name": "agent-readme-tools",
+  "description": "Claude Code plugins for agent-aware README tooling.",
+  "owner": { "name": "Danilo Giacomi", "email": "danilogiacomi@gmail.com" },
   "plugins": [
     {
       "name": "built-by-agents",
