@@ -1,0 +1,14 @@
+{
+  "name": "danilo-skills",
+  "description": "Danilo's Claude Code plugins.",
+  "owner": { "name": "Danilo Giacomi", "email": "giacomi@netseven.it" },
+  "plugins": [
+    {
+      "name": "built-by-agents",
+      "source": "./plugins/built-by-agents",
+      "description": "Scaffold a self-updating 'Built by agents' README section into any repo.",
+      "version": "0.1.0",
+      "author": { "name": "Danilo Giacomi" }
+    }
+  ]
+}

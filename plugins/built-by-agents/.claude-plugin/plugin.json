@@ -1,0 +1,9 @@
+{
+  "name": "built-by-agents",
+  "description": "Scaffold a self-updating 'Built by agents' README section into any repo: a Bun generator that reads local Claude Code / Codex agent logs, a pre-commit hook, and the README markers.",
+  "version": "0.1.0",
+  "author": { "name": "Danilo Giacomi", "email": "giacomi@netseven.it" },
+  "homepage": "https://github.com/danilogiacomi/built-by-agents",
+  "license": "MIT",
+  "keywords": ["readme", "agents", "ccusage", "git-hook", "bun"]
+}
